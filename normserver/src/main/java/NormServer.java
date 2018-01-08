@@ -76,14 +76,14 @@ public class NormServer {
 			if (accessControlRequestHeaders != null) {
 				response.header("Access-Control-Allow-Headers", accessControlRequestHeaders);
 			}
-			
+
 			String accessControlRequestMethod = request.headers("Access-Control-Request-Method");
 			if (accessControlRequestMethod != null) {
 				response.header("Access-Control-Allow-Methods", accessControlRequestMethod);
 			}
 			return "OK";
 		});
-		
+
 		before((request, response) -> {
 			// log.info(requestInfoToString(request));
 			response.header("Access-Control-Allow-Origin", origin);
@@ -106,26 +106,26 @@ public class NormServer {
 
 	public static void main(String[] args) {
 		NormServer nr = new NormServer();
-		
+
 		port(getHerokuAssignedPort());
 		enableCORS("*");
 
 		before ((req, res) -> {
 			logger.info(requestInfoToString(req));
 		});
-		
+
 		get("/hello", (req, res) -> "Hello Heroku World");
 
-        post("/assert", (req, res) -> {
-			// eventually this service will go away and be replaced by the parameterized version /assert/:id 
+    post("/assert", (req, res) -> {
+			// eventually this service will go away and be replaced by the parameterized version /assert/:id
 			return nr.processRequests("agpl", req);
 		});
-		
-        post("/assert/:modelId", (req, res) -> {
+
+    post("/assert/:modelId", (req, res) -> {
 			return nr.findModelAndProcessRequests(req.params(":modelId"), req);
 		});
-		
-        post("/assert/:modelId/:userId", (req, res) -> {
+
+    post("/assert/:modelId/:userId", (req, res) -> {
 			return nr.findModelAndProcessRequests(req.params(":modelId"), req);
 		});
 	}
@@ -165,18 +165,18 @@ public class NormServer {
 			Gson gson = new Gson();
 			List<SetRequest> setreqs = gson.fromJson(reqstr, new TypeToken<List<SetRequest>>(){}.getType());
 			// setreqs.forEach(x -> System.out.println(x));
-			
+
 			// http://stackoverflow.com/questions/18857884/how-to-convert-arraylist-of-custom-class-to-jsonarray-in-java
 			List<SetRequest> newvals = run(modelname, setreqs);
 			JsonElement element   = gson.toJsonTree(newvals, new TypeToken<List<SetRequest>>(){}.getType());
 			JsonArray jsonArray = element.getAsJsonArray();
-			
+
 			return jsonArray;
 	}
-	
-	
+
+
 	/**
-	 * Assert the indicated situations and run the Pellet reasoner 
+	 * Assert the indicated situations and run the Pellet reasoner
 	 * @param - list of situations asserted by the user
 	 * @return - value of "satisfied" property for all atomic situations and norms
 	 */
@@ -186,7 +186,7 @@ public class NormServer {
 		String ont = "http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#";
 
 		OntModel model = ModelFactory.createOntologyModel( PelletReasonerFactory.THE_SPEC, null );
-		
+
 		logger.debug("About the load the OWL file: " + ontfile);
 		// model.read( ontfile ); // this does not work in maven build
 		// https://www.mkyong.com/java/java-read-a-file-from-resources-folder/
@@ -242,7 +242,7 @@ public class NormServer {
 			Individual iAtomic = (Individual) instanceList.next();
 			allatomic.add(iAtomic.getLocalName());
 		}
-	
+
 		// for each r in setreqs:
 		//	 if r.id in AtomicSituation and r.satisfied != "":
 		//		changeSatisfied(model, ont, r.id, r.satisfied)
@@ -271,7 +271,7 @@ public class NormServer {
 
 		// collect all situations and norm values
 		List<SetRequest> returnvals = new ArrayList<SetRequest>();
-		
+
 		// can't do the following with ExtendedIterator??
 		// for (Individual i : ) {
 			// System.out.print(i.getLocalName() + ".satisfied: ");
@@ -282,7 +282,7 @@ public class NormServer {
 			Individual iSit = (Individual) instanceList.next();
 			System.out.print(iSit.getLocalName() + ".satisfied: ");
 			printIterator( iSit.listPropertyValues( satisfied ) );
-			
+
 			SetRequest r = new SetRequest();
 			r.id = iSit.getLocalName();
 			Literal val = (Literal) iSit.getPropertyValue(satisfied);
@@ -314,14 +314,14 @@ public class NormServer {
 			r.compliance = compval;
 			returnvals.add(r);
 		}
-		
+
 /* 		Individual AGPL2 = model.getIndividual( ont + "AGPL2" );
 		printDataProperty( AGPL2, Com);
 		printDataProperty( AGPL2, Tol);
 		printDataProperty( AGPL2, Vio);
 		printDataProperty( AGPL2, Inc);
  */
- 
+
 /*		try {
 			model.write(new FileWriter("output.owl"), "RDF/XML");
 		} catch (IOException e) {
@@ -372,7 +372,7 @@ public class NormServer {
 		}
 		System.out.println();
 	}
-	
+
 	/**
 	 * Display one values for a given individual and property.
 	 * If there are more than one, Jena will arbitrarily pick one
