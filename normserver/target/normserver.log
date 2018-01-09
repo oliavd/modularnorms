@@ -83,3 +83,14 @@
 2017-12-12 00:45:49 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
 2017-12-12 00:45:49 INFO  ServerConnector:270 - Started ServerConnector@2bb35ee5{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
 2017-12-12 00:45:49 INFO  Server:397 - Started @607ms
+2018-01-08 13:29:08 INFO  log:186 - Logging initialized @477ms
+2018-01-08 13:29:08 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-01-08 13:29:08 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-01-08 13:29:08 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-01-08 13:29:08 INFO  ServerConnector:270 - Started ServerConnector@3c0b8145{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-01-08 13:29:08 INFO  Server:397 - Started @678ms
+2018-01-08 13:30:59 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:20 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:28 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:32 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"}]] 
+2018-01-08 13:31:42 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4a_10","satisfied":"ST"},{"id":"Apache4b_12","satisfied":"ST"},{"id":"Apache4c_17","satisfied":"ST"},{"id":"Apache4d_32","satisfied":"ST"},{"id":"Apache4a_9","satisfied":"ST"}]] 
