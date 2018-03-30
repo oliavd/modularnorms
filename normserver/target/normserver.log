@@ -1,0 +1,139 @@
+2017-12-03 21:56:08 INFO  log:186 - Logging initialized @284ms
+2017-12-03 21:56:08 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-03 21:56:08 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-03 21:56:08 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-03 21:56:08 INFO  ServerConnector:270 - Started ServerConnector@2bb35ee5{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-03 21:56:08 INFO  Server:397 - Started @446ms
+2017-12-03 21:58:13 INFO  log:186 - Logging initialized @278ms
+2017-12-03 21:58:13 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-03 21:58:13 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-03 21:58:13 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-03 21:58:13 INFO  ServerConnector:270 - Started ServerConnector@372bfe66{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-03 21:58:13 INFO  Server:397 - Started @405ms
+2017-12-03 21:58:39 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert [] 
+2017-12-03 21:58:39 INFO  MatcherFilter:152 - The requested route [/assert] has not been mapped in Spark
+2017-12-03 21:58:40 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/favicon.ico [] 
+2017-12-03 21:58:40 INFO  MatcherFilter:152 - The requested route [/favicon.ico] has not been mapped in Spark
+2017-12-03 21:58:48 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/ [] 
+2017-12-03 21:58:48 INFO  MatcherFilter:152 - The requested route [/] has not been mapped in Spark
+2017-12-03 22:01:42 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/ [] 
+2017-12-03 22:01:42 INFO  MatcherFilter:152 - The requested route [/] has not been mapped in Spark
+2017-12-03 22:01:47 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert [] 
+2017-12-03 22:01:47 INFO  MatcherFilter:152 - The requested route [/assert] has not been mapped in Spark
+2017-12-03 22:16:59 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/ [] 
+2017-12-03 22:16:59 INFO  MatcherFilter:152 - The requested route [/] has not been mapped in Spark
+2017-12-03 22:21:46 INFO  log:186 - Logging initialized @256ms
+2017-12-03 22:21:46 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-03 22:21:46 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-03 22:21:46 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-03 22:21:46 INFO  ServerConnector:270 - Started ServerConnector@2b5f41a6{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-03 22:21:46 INFO  Server:397 - Started @395ms
+2017-12-03 22:23:05 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/hello [] 
+2017-12-03 22:24:27 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert [] 
+2017-12-03 22:24:27 INFO  MatcherFilter:152 - The requested route [/assert] has not been mapped in Spark
+2017-12-03 22:25:37 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert/1 [] 
+2017-12-03 22:25:37 INFO  MatcherFilter:152 - The requested route [/assert/1] has not been mapped in Spark
+2017-12-03 22:29:38 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/modularnorms/examples/yourlicense-test.html [] 
+2017-12-03 22:29:38 INFO  MatcherFilter:152 - The requested route [/modularnorms/examples/yourlicense-test.html] has not been mapped in Spark
+2017-12-03 23:03:20 INFO  log:186 - Logging initialized @367ms
+2017-12-03 23:03:20 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-03 23:03:20 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-03 23:03:20 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-03 23:03:20 INFO  ServerConnector:270 - Started ServerConnector@3c0b8145{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-03 23:03:20 INFO  Server:397 - Started @535ms
+2017-12-03 23:03:51 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/ [] 
+2017-12-03 23:03:51 INFO  MatcherFilter:152 - The requested route [/] has not been mapped in Spark
+2017-12-03 23:03:51 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/favicon.ico [] 
+2017-12-03 23:03:51 INFO  MatcherFilter:152 - The requested route [/favicon.ico] has not been mapped in Spark
+2017-12-03 23:04:11 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/hello [] 
+2017-12-03 23:05:04 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert [] 
+2017-12-03 23:05:04 INFO  MatcherFilter:152 - The requested route [/assert] has not been mapped in Spark
+2017-12-03 23:05:22 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert/:1 [] 
+2017-12-03 23:05:22 INFO  MatcherFilter:152 - The requested route [/assert/:1] has not been mapped in Spark
+2017-12-03 23:05:28 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert/1 [] 
+2017-12-03 23:05:28 INFO  MatcherFilter:152 - The requested route [/assert/1] has not been mapped in Spark
+2017-12-03 23:05:31 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert/2 [] 
+2017-12-03 23:05:31 INFO  MatcherFilter:152 - The requested route [/assert/2] has not been mapped in Spark
+2017-12-03 23:08:24 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/1234 [[]] 
+2017-12-03 23:09:48 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/1234 [[{"id":"clusterSS_AGPL1a","satisfied":""},{"id":"AGPL2_4","satisfied":""},{"id":"AGPL1_37","satisfied":""},{"id":"clusterSS_AGPL1","satisfied":""},{"id":"","compliance":"COM"}]] 
+2017-12-03 23:12:56 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/1234 [[{"id":"clusterSS_AGPL1a","satisfied":"ST"},{"id":"AGPL2_4","satisfied":"ST"},{"id":"AGPL1_37","satisfied":"ST"},{"id":"clusterSS_AGPL1","satisfied":""},{"id":"","compliance":"COM"},{"id":"AGPL1a_41","satisfied":"ST"},{"id":"AGPL1a_44","satisfied":"ST"},{"id":"AGPL2a_16","satisfied":"ST"},{"id":"AGPL2b_18","satisfied":"ST"},{"id":"AGPL2c_21","satisfied":"ST"},{"id":"AGPL2d_31","satisfied":"ST"},{"id":"AGPL1b_48","satisfied":"ST"},{"id":"AGPL1c_52","satisfied":"ST"},{"id":"AGPL1a_43","satisfied":"ST"},{"id":"AGPL1b_47","satisfied":"ST"},{"id":"AGPL1c_51","satisfied":"ST"},{"id":"AGPL1_39","satisfied":"ST"},{"id":"clusterSS_AGPL1b","satisfied":"ST"},{"id":"AGPL2_6","satisfied":"ST"},{"id":"AGPL1_40","satisfied":"ST"},{"id":"clusterSS_AGPL1c","satisfied":"ST"},{"id":"AGPL2_7","satisfied":"ST"},{"id":"AGPL1_35","satisfied":"ST"},{"id":"AGPL1b_45","satisfied":"ST"},{"id":"AGPL1b_46","satisfied":""},{"id":"AGPL1a_42","satisfied":""},{"id":"AGPL1c_49","satisfied":"ST"},{"id":"AGPL2_1","satisfied":"ST"},{"id":"AGPL2b_17","satisfied":"ST"},{"id":"AGPL2a_15","satisfied":"ST"},{"id":"AGPL2c_19","satisfied":"ST"},{"id":"AGPL2c_23","satisfied":"ST"},{"id":"AGPL2c_25","satisfied":"ST"},{"id":"AGPL2d_34","satisfied":"ST"},{"id":"AGPL2d_33","satisfied":"ST"},{"id":"AGPL2d_28","satisfied":"ST"},{"id":"AGPL2d_29","satisfied":"ST"}]] 
+2017-12-03 23:26:26 INFO  log:186 - Logging initialized @253ms
+2017-12-03 23:26:26 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-03 23:26:26 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-03 23:26:26 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-03 23:26:26 INFO  ServerConnector:270 - Started ServerConnector@d3d847c{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-03 23:26:26 INFO  Server:397 - Started @378ms
+2017-12-03 23:27:01 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/hello [] 
+2017-12-03 23:29:39 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/1234 [[{"id":"clusterSS_AGPL1a","satisfied":"ST"},{"id":"AGPL2_4","satisfied":"ST"},{"id":"AGPL1_37","satisfied":"ST"},{"id":"clusterSS_AGPL1","satisfied":"ST"},{"id":"clusterSS_AGPL1b","satisfied":"ST"},{"id":"AGPL2_6","satisfied":"ST"},{"id":"AGPL1_39","satisfied":"ST"},{"id":"clusterSS_AGPL1c","satisfied":"ST"},{"id":"AGPL2_7","satisfied":"ST"},{"id":"AGPL1_40","satisfied":"ST"},{"id":"clusterSS_AGPL2","satisfied":"ST"},{"id":"clusterSS_AGPL2b","satisfied":"ST"},{"id":"AGPL2_11","satisfied":"ST"},{"id":"clusterSS_AGPL2c","satisfied":"ST"},{"id":"AGPL2_13","satisfied":"ST"},{"id":"clusterSS_AGPL2d","satisfied":"ST"},{"id":"AGPL2_14","satisfied":"ST"},{"id":"clusterSS_AGPL2a","satisfied":"ST"},{"id":"AGPL2_9","satisfied":"ST"}]] 
+2017-12-03 23:30:59 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 GET http://localhost:4567/assert/1/1234 [] 
+2017-12-03 23:30:59 INFO  MatcherFilter:152 - The requested route [/assert/1/1234] has not been mapped in Spark
+2017-12-03 23:35:32 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/0000 [[{"id":"","compliance":""},{"id":"AGPL1a_44","satisfied":"ST"},{"id":"AGPL2a_16","satisfied":"ST"},{"id":"AGPL2b_18","satisfied":"ST"},{"id":"AGPL2c_21","satisfied":"ST"},{"id":"AGPL2d_31","satisfied":"ST"},{"id":"AGPL1b_48","satisfied":"ST"},{"id":"AGPL1c_52","satisfied":"ST"},{"id":"AGPL1a_43","satisfied":"ST"},{"id":"AGPL1b_47","satisfied":"ST"},{"id":"AGPL1c_51","satisfied":"ST"},{"id":"AGPL1a_41","satisfied":"ST"},{"id":"AGPL1_37","satisfied":"ST"},{"id":"clusterSS_AGPL1a","satisfied":"ST"},{"id":"AGPL2_4","satisfied":"ST"},{"id":"AGPL1_39","satisfied":"ST"},{"id":"clusterSS_AGPL1b","satisfied":"ST"},{"id":"AGPL2_6","satisfied":"ST"},{"id":"AGPL1_40","satisfied":"ST"},{"id":"clusterSS_AGPL1c","satisfied":"ST"},{"id":"AGPL2_7","satisfied":"ST"}]] 
+2017-12-03 23:59:02 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/6/555 [[{"id":"YPL4a_2","satisfied":"ST"},{"id":"YPL4a_1","satisfied":"ST"},{"id":"YPL4_3","satisfied":"ST"}]] 
+2017-12-04 00:00:17 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/6/555 [[{"id":"YPL4a_2","satisfied":"ST"},{"id":"YPL4a_1","satisfied":"ST"},{"id":"YPL4_3","satisfied":"ST"}]] 
+2017-12-11 20:56:42 INFO  log:186 - Logging initialized @439ms
+2017-12-11 20:56:42 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-11 20:56:42 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-11 20:56:42 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-11 20:56:42 INFO  ServerConnector:270 - Started ServerConnector@3c0b8145{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-11 20:56:42 INFO  Server:397 - Started @637ms
+2017-12-11 20:59:43 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/1/1234 [[{"id":"AGPL1a_41","satisfied":"ST"},{"id":"AGPL1a_43","satisfied":"ST"},{"id":"AGPL1b_47","satisfied":"ST"},{"id":"AGPL1c_51","satisfied":"ST"}]] 
+2017-12-12 00:45:49 INFO  log:186 - Logging initialized @422ms
+2017-12-12 00:45:49 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2017-12-12 00:45:49 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2017-12-12 00:45:49 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2017-12-12 00:45:49 INFO  ServerConnector:270 - Started ServerConnector@2bb35ee5{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2017-12-12 00:45:49 INFO  Server:397 - Started @607ms
+2018-01-08 13:29:08 INFO  log:186 - Logging initialized @477ms
+2018-01-08 13:29:08 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-01-08 13:29:08 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-01-08 13:29:08 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-01-08 13:29:08 INFO  ServerConnector:270 - Started ServerConnector@3c0b8145{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-01-08 13:29:08 INFO  Server:397 - Started @678ms
+2018-01-08 13:30:59 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:20 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:28 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-08 13:31:32 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"}]] 
+2018-01-08 13:31:42 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"","compliance":"COM"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4a_10","satisfied":"ST"},{"id":"Apache4b_12","satisfied":"ST"},{"id":"Apache4c_17","satisfied":"ST"},{"id":"Apache4d_32","satisfied":"ST"},{"id":"Apache4a_9","satisfied":"ST"}]] 
+2018-01-18 19:04:07 INFO  log:186 - Logging initialized @403ms
+2018-01-18 19:04:07 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-01-18 19:04:07 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-01-18 19:04:07 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-01-18 19:04:07 INFO  ServerConnector:270 - Started ServerConnector@50d96981{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-01-18 19:04:07 INFO  Server:397 - Started @582ms
+2018-01-18 19:37:28 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":""},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"}]] 
+2018-01-18 19:37:56 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":""},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"}]] 
+2018-01-18 19:38:27 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":""},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"}]] 
+2018-01-18 19:38:39 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":""},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"}]] 
+2018-01-18 19:38:58 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":""},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"}]] 
+2018-01-18 19:39:30 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"},{"id":"Apache2_43","satisfied":"ST"}]] 
+2018-01-18 19:42:05 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/3/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-18 19:55:29 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"},{"id":"Apache2_43","satisfied":"ST"}]] 
+2018-01-18 19:58:07 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/3/1234 [[{"id":"","compliance":"COM"}]] 
+2018-01-18 20:02:27 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/123456 [[{"id":"","compliance":"COM"}]] 
+2018-01-18 20:04:10 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/1234 [[{"id":"Apache4_8","satisfied":"ST"},{"id":"clusterSS_Apache4d","satisfied":"ST"},{"id":"Apache4dAddAttrib_36","satisfied":"ST"},{"id":"Apache4_7","satisfied":"ST"},{"id":"clusterSS_Apache4c","satisfied":"ST"},{"id":"Apache4_5","satisfied":"ST"},{"id":"clusterSS_Apache4b","satisfied":"ST"},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4_1","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache2_45","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache4dAddCopyright_39","satisfied":"ST"},{"id":"Apache4dAddCopyright_38","satisfied":""},{"id":"Apache2_42","satisfied":"ST"},{"id":"Apache2_44","satisfied":"ST"},{"id":"clusterSS_Apache4dAddCopyright","satisfied":"ST"},{"id":"clusterSS_Apache2","satisfied":"ST"},{"id":"clusterSS_Apache4dAddAttrib","satisfied":"ST"},{"id":"","compliance":"COM"},{"id":"Apache2_43","satisfied":"ST"}]] 
+2018-01-19 09:57:27 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/12345 [[{"id":"","compliance":"COM"}]] 
+2018-01-19 09:57:39 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/12345 [[{"id":"","compliance":"COM"}]] 
+2018-01-19 10:17:44 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/2/12345 [[{"id":"","compliance":"COM"}]] 
+2018-01-19 10:29:58 INFO  log:186 - Logging initialized @244ms
+2018-01-19 10:29:58 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-01-19 10:29:58 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-01-19 10:29:58 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-01-19 10:29:59 INFO  ServerConnector:270 - Started ServerConnector@55323678{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-01-19 10:29:59 INFO  Server:397 - Started @357ms
+2018-01-19 10:31:23 INFO  log:186 - Logging initialized @248ms
+2018-01-19 10:31:23 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-01-19 10:31:23 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-01-19 10:31:23 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-01-19 10:31:23 INFO  ServerConnector:270 - Started ServerConnector@79d0131b{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-01-19 10:31:23 INFO  Server:397 - Started @362ms
+2018-01-19 10:32:32 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/7/1234 [[{"id":"","compliance":""},{"id":"Apache4_3","satisfied":"ST"},{"id":"clusterSS_Apache4a","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"}]] 
+2018-01-19 11:02:42 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/7/1223 [[{"id":"Apache4_3","satisfied":""},{"id":"clusterSS_Apache4a","satisfied":""},{"id":"Apache4_5","satisfied":""},{"id":"clusterSS_Apache4b","satisfied":""},{"id":"Apache4_1","satisfied":""},{"id":"Apache4a_10","satisfied":"ST"},{"id":"Apache4b_12","satisfied":"ST"},{"id":"Apache4c_17","satisfied":"ST"},{"id":"Apache4d_32","satisfied":"ST"},{"id":"Apache4a_9","satisfied":"ST"}]] 
+2018-01-19 11:03:16 INFO  NormServer:114 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/7/1223 [[{"id":"Apache4_3","satisfied":""},{"id":"clusterSS_Apache4a","satisfied":""},{"id":"Apache4_5","satisfied":""},{"id":"clusterSS_Apache4b","satisfied":""},{"id":"Apache4_1","satisfied":""},{"id":"Apache4a_10","satisfied":"ST"},{"id":"Apache4b_12","satisfied":"ST"},{"id":"Apache4c_17","satisfied":"ST"},{"id":"Apache4d_32","satisfied":"ST"},{"id":"Apache4a_9","satisfied":"ST"},{"id":"Apache2_53","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"}]] 
+2018-02-01 15:49:41 INFO  log:186 - Logging initialized @252ms
+2018-02-01 15:49:41 INFO  EmbeddedJettyServer:125 - == Spark has ignited ...
+2018-02-01 15:49:41 INFO  EmbeddedJettyServer:126 - >> Listening on 0.0.0.0:4567
+2018-02-01 15:49:41 INFO  Server:345 - jetty-9.3.z-SNAPSHOT
+2018-02-01 15:49:41 INFO  ServerConnector:270 - Started ServerConnector@79d0131b{HTTP/1.1,[http/1.1]}{0.0.0.0:4567}
+2018-02-01 15:49:41 INFO  Server:397 - Started @386ms
+2018-02-01 15:50:15 INFO  NormServer:120 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/7/1234 [[{"id":"Apache3RetaliationClause_64","satisfied":"ST"},{"id":"Apache3_62","satisfied":"ST"}]] 
+2018-02-01 15:51:29 INFO  NormServer:120 - 0:0:0:0:0:0:0:1 POST http://localhost:4567/assert/7/1234 [[{"id":"Apache3RetaliationClause_64","satisfied":"ST"},{"id":"Apache3_62","satisfied":"ST"},{"id":"Apache3RetaliationClause_65","satisfied":"ST"},{"id":"clusterSS_Apache3","satisfied":"ST"},{"id":"Apache3_63","satisfied":"ST"},{"id":"clusterSS_Apache4","satisfied":"ST"},{"id":"Apache4dAddCopyright_41","satisfied":"ST"},{"id":"Apache2_53","satisfied":"ST"},{"id":"Apache4b_12","satisfied":"ST"},{"id":"Apache4a_10","satisfied":"ST"},{"id":"Apache4c_17","satisfied":"ST"},{"id":"Apache4d_32","satisfied":"ST"},{"id":"Apache4b_11","satisfied":"ST"},{"id":"Apache4a_9","satisfied":"ST"},{"id":"Apache4dAddCopyright_40","satisfied":"ST"},{"id":"Apache2_52","satisfied":"ST"}]] 
