@@ -69,9 +69,11 @@ public class NormServer {
 	// Enables CORS on requests. This method is an initialization method and should be called once.
 	// This is potentially insecure, and may not be needed if both html and service are on the same server
 	// (acc to responses to above tutorial, origin has to be "*" and don't need methods or headers parameters)
-	// private static void enableCORS(final String origin, final String methods, final String headers) {
+	// private static void enableCORS(final String origin, final String methods, final String headers) 
+
 	private static void enableCORS(final String origin) {
-		options("/*", (request, response) -> {
+		options("/*", (request, response) -> { 
+
 			String accessControlRequestHeaders = request.headers("Access-Control-Request-Headers");
 			if (accessControlRequestHeaders != null) {
 				response.header("Access-Control-Allow-Headers", accessControlRequestHeaders);
@@ -93,8 +95,12 @@ public class NormServer {
 			response.type("application/json");
 		});
 	}
+	
+	
 
-	// https://sparktutorials.github.io/2015/08/24/spark-heroku.html
+
+	/* https://sparktutorials.github.io/2015/08/24/spark-heroku.html */
+
 	static int getHerokuAssignedPort() {
 		ProcessBuilder processBuilder = new ProcessBuilder();
 		if (processBuilder.environment().get("PORT") != null) {
@@ -144,8 +150,13 @@ public class NormServer {
 			modelname = "apache2sub4";
 		} else if (modelId.equals("6")) {
 			modelname = "yourlicense";
+		} else if (modelId.equals("7")) {
+			modelname = "apache2_oli";
 		} else {
+	
+
 			return null;
+			
 		}
 
 		return processRequests(modelname, req);
@@ -217,6 +228,7 @@ public class NormServer {
 		// 	  if norm n is not contained
 		// 		create supersituation clusterSS_n
 		// 		add property clusterSS_n contains n
+
 		instanceList = SuperSituation.listInstances();
 		List<String> containedNorms = new ArrayList<String>();
 		while( instanceList.hasNext() ) {
