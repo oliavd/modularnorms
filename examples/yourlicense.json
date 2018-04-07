@@ -10,7 +10,8 @@
        "negative": "no",
        "verb": "retain",
        "action": "[You retained] in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work",
-       "preconditions": "[You intend to reproduce and distribute copies of the Work or Derivative Works]"
+       "preconditions": "[You intend to reproduce and distribute copies of the Work or Derivative Works]",
+         "type": "duty"
      }
     }, 
 
@@ -23,7 +24,8 @@
        "negative": "no",
        "verb": "reproduce and distribute",
        "action": "[You reproduced and distributed] copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form",
-       "preconditions": "$YPL4a"
+       "preconditions": "$YPL4a",
+       "type": "right"
      }
     } 
 

@@ -2,6 +2,7 @@
   "model": [
     {
       "table": {
+        
         "action": "[You reproduced and distributed] copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form",
         "actor": "You",
         "id": "Apache4",
@@ -253,6 +254,7 @@
         "verb": "hold liable"
       }
     },
+    
     {
       "table": {
         "action": [
@@ -273,3 +275,4 @@
     }
   ]
 }
+
