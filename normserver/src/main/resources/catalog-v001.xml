@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="hipaalite-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="hipaa-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2_oli-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="yourlicense-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2sub4-rdfxml.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1518199758304" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="agpl-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2_full-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="hipaalite-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="hipaa-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="yourlicense-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="apache2sub4-rdfxml.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1523653855349" name="duplicate:http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos" uri="agpl-rdfxml.owl"/>
     </group>
 </catalog>
