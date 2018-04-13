@@ -151,7 +151,7 @@ public class NormServer {
 		} else if (modelId.equals("6")) {
 			modelname = "yourlicense";
 		} else if (modelId.equals("7")) {
-			modelname = "apache2_oli";
+			modelname = "apache2_full";
 		} else {
 	
 
