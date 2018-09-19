@@ -18,7 +18,8 @@
 		  "P6: $AGPL1a",
 		  "P7: $AGPL1b",
 		  "P8: $AGPL1c"
-	   ]
+     ],
+     "type":"right"
      }
     }, 
 
@@ -31,7 +32,7 @@
        "negative": "no",
        "verb": "carry prominent notices",
        "action": "[you caused] the modified files to carry prominent notices stating that you changed the files and the date of any change",
-       "preconditions": "[you intend to modify the Program, and copy and distribute such modifications]"
+       "preconditions": "[you intend to modify the Program, and copy and distribute such modifications]","type":"duty"
      }
     },
 
@@ -44,7 +45,7 @@
        "negative": "no",
        "verb": "be licensed as a whole",
        "action": "[you caused] any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License",
-       "preconditions": "[you intend to modify the Program, and copy and distribute such modifications]"
+       "preconditions": "[you intend to modify the Program, and copy and distribute such modifications]","type":"duty"
      }
     },
 
@@ -61,8 +62,9 @@
 	      "P1 and (P2 or not P3)",
 		  "P1: [you intend to modify the Program, and copy and distribute such modifications]",
 		  "P2: the modified program normally reads commands interactively when run",
-		  "P3: [original] Program itself is interactive but does not normally print such an announcement"
-	   ]
+      "P3: [original] Program itself is interactive but does not normally print such an announcement"
+     ],
+     "type":"duty"
      }
     },
 
@@ -84,7 +86,8 @@
 		  "P1: [you intend to modify the Program, and copy and distribute such modifications]",
 		  "P2: the [original] Program as you received it is intended to interact with users through a computer network",
 		  "P3: in the version you received, any user interacting with the [original] Program was given the opportunity to request transmission to that user of the Program's complete source code"
-	   ] 
+     ],
+     "type":"duty" 
      }
     },
 	
@@ -102,7 +105,8 @@
 		  "P1: $AGPL1a",
 		  "P2: $AGPL1b",
 		  "P3: $AGPL1c"
-	   ]
+     ],
+     "type":"right"
      }
     }, 
 
@@ -119,7 +123,8 @@
 	      "P1 or P2",
 	      "P1: [you intend to copy and distribute verbatim copies of the original Program's source code]",
 		  "P2: [you intend to modify the Program, and copy and distribute such modifications]"
-	   ]
+     ],
+     "type":"duty"
      }
     },
 
@@ -136,7 +141,8 @@
 	      "P1 or P2",
 	      "P1: [you intend to copy and distribute verbatim copies of the original Program's source code]",
 		  "P2: [you intend to modify the Program, and copy and distribute such modifications]"
-	   ]
+     ],
+     "type":"duty"
      }
     },
 
@@ -153,7 +159,8 @@
 	      "P1 or P2",
 	      "P1: [you intend to copy and distribute verbatim copies of the original Program's source code]",
 		  "P2: [you intend to modify the Program, and copy and distribute such modifications]"
-	   ]
+     ],
+     "type":"duty"
      }
     }
 

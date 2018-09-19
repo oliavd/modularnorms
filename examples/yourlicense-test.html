@@ -257,10 +257,12 @@
                 $("#opener").prop('disabled', false);
                 $("#opener").css('background-color','#4CAF50');
                 //alert("Done! Review results")
+                $("#textarea").text("From server: "+ JSON.stringify(data));
             });
-          } else{
-            alert("Please enter a valid Experiment Subject ID");
-          }
+        }
+        //   } else{
+        //     alert("Please enter a valid Experiment Subject ID");
+        //   }
         });
 
         function updateSVG (data){
