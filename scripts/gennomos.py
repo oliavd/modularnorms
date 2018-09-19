@@ -3,7 +3,7 @@ import json
 from pyparsing import *
 
 if len(sys.argv) < 2:
-	print 'Usage: ' + sys.argv[0] + ' <JSON file> [dot|owl|nr]'
+	print 'Usage: ' + sys.argv[0] + ' <JSON file> [dot|owl|nr|dlv]'
 	sys.exit()
 
 JSONFileName = sys.argv[1]
@@ -11,6 +11,8 @@ if len(sys.argv) > 2 and sys.argv[2] == 'owl':
 	from genowlfunc import *
 elif len(sys.argv) > 2 and sys.argv[2] == 'nr':	
 	from gennr import *
+elif len(sys.argv) > 2 and sys.argv[2] == 'dlv':	
+	from gendlv import *
 else:
 	from gendot import *
 
@@ -95,15 +97,16 @@ def gennomos(modelfile):
 	for t in normtable["model"]:
 		tbl = t["table"]
 		drawSS_start(tbl["id"])
-#		if (tbl["modal"] not in ["may", "can"]):
-#			isduty = True
-#		else:
-#			isduty = False
-
-		if (tbl["type"]  in ["duty"]):
-			isduty = True
+		if ("type" in tbl):
+			if (tbl["type"] == "duty"):
+				isduty = True
+			else:
+				isduty = False
 		else:
-			isduty = False	
+			if (tbl["modal"] not in ["may", "can"]):
+				isduty = True
+			else:
+				isduty = False
 		if isduty:
 			drawDuty(tbl["id"], tbl["sentence"])
 		else:
