@@ -152,6 +152,10 @@ public class NormServer {
 			modelname = "yourlicense";
 		} else if (modelId.equals("7")) {
 			modelname = "apache2_full";
+		} else if (modelId.equals("8")) {
+			modelname = "mel";
+		} else if (modelId.equals("9")) {
+			modelname = "lel";
 		} else {
 	
 

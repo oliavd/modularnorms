@@ -1,4 +1,4 @@
 #!/bin/bash
-python gennomos.py ../examples/newExamples/apache2_full.json dot > ../examples/newExamples/apache2_full.dot && python gennomos.py ../examples/newExamples/apache2_full.json owl > ../examples/newExamples/apache2_full.owl &&  dot -Tsvg -o ../examples/newExamples/apache2_full.svg ../examples/newExamples/apache2_full.dot && ./xformsvg ../examples/newExamples/apache2_full > ../examples/newExamples/apache2_full.html
+python gennomos.py ../examples/newExamples/lel.json dot > ../examples/newExamples/lel.dot && python gennomos.py ../examples/newExamples/lel.json owl > ../examples/newExamples/lel.owl &&  dot -Tsvg -o ../examples/newExamples/lel.svg ../examples/newExamples/lel.dot && ./xformsvg ../examples/newExamples/lel > ../examples/newExamples/lel.html
 
 

@@ -1932,7 +1932,21 @@
 
         // This function will execute on load
         $(document).ready(function() {
+            var item1 = {}
+            var data1 = []
+            $("polygon").each(function(index,element){
+	if(($(this).parent().children("text").first().text() != "not") && ($(this).parent().children("text").first().text() != "or") && ($(this).parent().children("text").first().text() != "and") && !($(this).parent().children("text").first().text().startsWith("SS_")) && ($(this).parent().attr("class") =="node")){
+        var id = $(this).parent().children('title').text()
+        var tex = $(this).parent().children('text').first().text()
+        console.log(id + " "+ tex)
+        item1 = {}
+        item1["id"] = id
+        item1["text"] = tex
+        data1.push(item1)
+        console.log(JSON.stringify(data1))
 
+    }
+});
         });
 
         // Builds the JSON data object
