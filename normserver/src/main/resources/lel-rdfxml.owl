@@ -541,9 +541,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_64 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_64">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
         <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You made, have made, used, offered to sell, sold, imported and otherwise transfered] the Work</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_64</hasID>
     </owl:NamedIndividual>
     
@@ -552,9 +552,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_64"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_65</hasID>
     </owl:NamedIndividual>
     
@@ -563,9 +563,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_66 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_66">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL4</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_66</hasID>
     </owl:NamedIndividual>
     
@@ -574,9 +575,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_66"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_67</hasID>
     </owl:NamedIndividual>
     
@@ -585,9 +586,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_68</hasID>
     </owl:NamedIndividual>
     
@@ -596,9 +597,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_69 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_69">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You made , have made] the Work </hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_69</hasID>
     </owl:NamedIndividual>
     
@@ -607,9 +608,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_70 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_70">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You used] the Work</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_69"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_70</hasID>
     </owl:NamedIndividual>
     
@@ -618,9 +619,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_71 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_71">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You offered to sell, sold] the Work</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_70"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL9</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_71</hasID>
     </owl:NamedIndividual>
     
@@ -629,9 +631,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_72 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_72">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_66"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You imported] the Work</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_70"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_72</hasID>
     </owl:NamedIndividual>
     
@@ -640,9 +642,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_73 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_73">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_65"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You transfered] the Work</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_72"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL6</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_73</hasID>
     </owl:NamedIndividual>
     
@@ -651,9 +654,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_74 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_74">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LNOT"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_64"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_72"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL7</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_74</hasID>
     </owl:NamedIndividual>
     
@@ -662,9 +666,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_75 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_75">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_74"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You instituted] patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_69"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL8</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_75</hasID>
     </owl:NamedIndividual>
     
@@ -673,9 +678,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_76 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_76">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
+        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_68"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL5</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_76</hasID>
     </owl:NamedIndividual>
     
@@ -684,10 +690,9 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_77 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_77">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_76"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL4</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LNOT"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_67"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_77</hasID>
     </owl:NamedIndividual>
     
@@ -696,103 +701,10 @@
     <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_78 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_78">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_76"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_77"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You instituted] patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement</hasDesc>
         <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_78</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_79 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_79">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_78"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_79</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_80 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_80">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_79"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_80</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_81 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_81">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_80"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL9</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_81</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_82 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_82">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_80"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_82</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_83 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_83">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_82"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL6</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_83</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_84 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_84">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_82"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL7</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_84</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_85 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_85">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_79"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL8</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_85</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_86 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_86">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
-        <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_78"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL5</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL3_86</hasID>
     </owl:NamedIndividual>
     
 
@@ -1334,68 +1246,68 @@
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_87 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_79 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_87">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_79">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
         <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_87</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_79</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_88 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_80 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_88">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_80">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_87"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_79"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_88</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_80</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_89 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_81 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_89">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_81">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_88"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_80"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Any Contribution intentionally submitted for inclusion in the Work by You to the Licensor is] under the terms and conditions of this License, without any additional terms or conditions</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_89</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_81</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_90 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_82 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_90">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_82">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_88"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_80"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You explicitly stated] terms and conditions</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_90</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_82</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_91 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_83 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_91">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_83">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_87"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_79"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Nothing herein supersede ]or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_91</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_83</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_92 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_84 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_92">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_84">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
         <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You submitted] a Work for Contribution</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_92</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL5_84</hasID>
     </owl:NamedIndividual>
     
 
@@ -1410,57 +1322,57 @@
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_93 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_85 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_93">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_85">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
         <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_93</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_85</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_94 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_86 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_94">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_86">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LNOT"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_93"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_85"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_94</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_86</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_95 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_87 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_95">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_87">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_94"/>
+        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_86"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You used trade names, trademarks, service marks, or product names of the Licensor]</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_95</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_87</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_96 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_88 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_96">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_88">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_93"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_85"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[As required ]for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file [You used] trade names, trademarks, service marks, or product names of the Licensor</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_96</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_88</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_97 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_89 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_97">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_89">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
         <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You exercice permission granted by this License ]</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_97</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL6_89</hasID>
     </owl:NamedIndividual>
     
 
@@ -1475,68 +1387,68 @@
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_100 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_90 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_100">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_98"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_100</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_101 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_101">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_100"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You determined appropriateness of using or redistributing the Work</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_101</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_102 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_102">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_100"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You assumed] any risks associated with Your exercice of permissions under this license</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_102</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_103 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_103">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You exercice permission granted by this License</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_103</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_98 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_98">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_90">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
         <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_98</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_90</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_99 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_91 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_99">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_91">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_98"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_90"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Required by applicable law or agreed to in writing], Licensor did not provides the Work (and each Contributor did not provide its Contributions) on an &apos;AS IS&apos; basis, WITHOUTH WARRANTIES OR CONDITIONS OF ANY KIND,either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_99</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_91</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_92 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_92">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_90"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_92</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_93 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_93">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_92"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You determined appropriateness of using or redistributing the Work</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_93</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_94 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_94">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_92"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You assumed] any risks associated with Your exercice of permissions under this license</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_94</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_95">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You exercice permission granted by this License</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL7_95</hasID>
     </owl:NamedIndividual>
     
 
@@ -1551,57 +1463,57 @@
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_104 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_100 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_104">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
-        <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_104</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_105 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_105">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_104"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, [You holded] Contributor liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses)]</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_105</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_106 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_106">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LNOT"/>
-        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_104"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_106</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_107 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_107">
-        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_106"/>
-        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You holded] Contributor liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses)</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_107</hasID>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_108 -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_108">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_100">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
         <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">You exercice permissions granted by this License</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_108</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_100</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_96 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_96">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#OR"/>
+        <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">or</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_96</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_97">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_96"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, [You holded] Contributor liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses)]</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_97</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_98 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_98">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LNOT"/>
+        <or_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_96"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_98</hasID>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
+        <not_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_98"/>
+        <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You holded] Contributor liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses)</hasDesc>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL8_99</hasID>
     </owl:NamedIndividual>
     
 
@@ -1616,69 +1528,69 @@
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_109 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_101 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_109">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_101">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
         <satisfy rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_109</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_101</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_110 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_102 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_110">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_102">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AND"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_109"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_101"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">and</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_110</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_102</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_111 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_103 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_111">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_103">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_110"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_102"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You offered, and charge] a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_111</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_103</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_112 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_104 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_112">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_104">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_110"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_102"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You acted] only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_112</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_104</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_113 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_105 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_113">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_105">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#AtomicSituation"/>
-        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_109"/>
+        <and_ rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_101"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[You agreed] to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_113</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_105</hasID>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_114 -->
+    <!-- http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_106 -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_114">
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_106">
         <rdf:type rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#SuperSituation"/>
         <_contains rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4"/>
         <activate rdf:resource="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9"/>
         <hasDesc rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SS_LEL4</hasDesc>
-        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_114</hasID>
+        <hasID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEL9_106</hasID>
     </owl:NamedIndividual>
     
 
@@ -1733,14 +1645,6 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_76"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_77"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_78"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_79"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_80"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_81"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_82"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_83"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_84"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_85"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL3_86"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4_1"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4_2"/>
@@ -1790,38 +1694,38 @@
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4d_32"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL4d_33"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_87"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_88"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_89"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_90"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_91"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_92"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_79"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_80"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_81"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_82"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_83"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL5_84"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_93"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_94"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_95"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_96"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_97"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_85"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_86"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_87"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_88"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL6_89"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_100"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_101"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_102"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_103"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_98"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_99"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_90"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_91"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_92"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_93"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_94"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL7_95"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_104"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_105"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_106"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_107"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_108"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_100"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_96"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_97"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL8_99"/>
             <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_109"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_110"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_111"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_112"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_113"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_114"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_101"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_102"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_103"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_104"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_105"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/hsiy/ontologies/2017/2/supernomos#LEL9_106"/>
         </owl:distinctMembers>
     </rdf:Description>
     
